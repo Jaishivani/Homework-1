@@ -1,0 +1,16 @@
+#include<stdio.h>
+void main()
+{
+int n;
+printf("Enter number:");
+scanf("%d",&n);
+printf("Given no is %d",n);
+
+inc(n) 
+printf("After incrementing %d", n);
+}
+void inc(int n) 
+{
+n=n+1
+printf("Increment is  %d",n);
+}
