@@ -1,0 +1,10 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+int n, r;
+printf("Enter a number: \n");
+scanf("%d",&n,&r);
+result=sqrt(n);
+printf("\nSquare root of %d is %d",n,r);
+return 0;
