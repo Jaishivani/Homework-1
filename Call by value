@@ -1,16 +1,17 @@
+//call by value
+//argument passed and no return
 #include<stdio.h>
 void main()
 {
-int n;
+int a;
 printf("Enter number:");
-scanf("%d",&n);
-printf("Given no is %d",n);
-
-inc(n) 
-printf("After incrementing %d", n);
+scanf("%d",&a);
+printf("Given number is %d\n",a);
+inc(a);//Actual parameter
+printf("After incrementing %d\n",a);
 }
-void inc(int n) 
+void inc(int a)//Formal parameter
 {
-n=n+1
-printf("Increment is  %d",n);
+a=a+1;
+printf("Increment is  %d\n",a);
 }
